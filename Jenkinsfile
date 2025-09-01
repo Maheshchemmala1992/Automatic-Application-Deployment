@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/praveenkumarpentamalla/Automatic-Application-Deployment.git'
+                git branch: 'main', url: 'https://github.com/Maheshchemmala1992/Automatic-Application-Deployment.git'
             }
         }
 
